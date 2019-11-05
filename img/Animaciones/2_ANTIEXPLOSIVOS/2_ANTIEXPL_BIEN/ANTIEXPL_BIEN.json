@@ -1,0 +1,92 @@
+{"frames": {
+
+"2_ANTIEXPL_BIEN_00001":
+{
+	"frame": {"x":1,"y":351,"w":208,"h":167},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":114,"y":73,"w":208,"h":167},
+	"sourceSize": {"w":403,"h":306}
+},
+"2_ANTIEXPL_BIEN_00002":
+{
+	"frame": {"x":211,"y":515,"w":208,"h":167},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":114,"y":73,"w":208,"h":167},
+	"sourceSize": {"w":403,"h":306}
+},
+"2_ANTIEXPL_BIEN_00003":
+{
+	"frame": {"x":1,"y":520,"w":208,"h":167},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":114,"y":73,"w":208,"h":167},
+	"sourceSize": {"w":403,"h":306}
+},
+"2_ANTIEXPL_BIEN_00004":
+{
+	"frame": {"x":215,"y":175,"w":208,"h":168},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":114,"y":72,"w":208,"h":168},
+	"sourceSize": {"w":403,"h":306}
+},
+"2_ANTIEXPL_BIEN_00005":
+{
+	"frame": {"x":1,"y":181,"w":208,"h":168},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":114,"y":72,"w":208,"h":168},
+	"sourceSize": {"w":403,"h":306}
+},
+"2_ANTIEXPL_BIEN_00006":
+{
+	"frame": {"x":211,"y":345,"w":208,"h":168},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":114,"y":72,"w":208,"h":168},
+	"sourceSize": {"w":403,"h":306}
+},
+"2_ANTIEXPL_BIEN_00007":
+{
+	"frame": {"x":211,"y":684,"w":208,"h":167},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":114,"y":73,"w":208,"h":167},
+	"sourceSize": {"w":403,"h":306}
+},
+"2_ANTIEXPL_BIEN_00008":
+{
+	"frame": {"x":1,"y":689,"w":208,"h":167},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":114,"y":73,"w":208,"h":167},
+	"sourceSize": {"w":403,"h":306}
+},
+"2_ANTIEXPL_BIEN_00009":
+{
+	"frame": {"x":215,"y":1,"w":208,"h":172},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":114,"y":68,"w":208,"h":172},
+	"sourceSize": {"w":403,"h":306}
+},
+"2_ANTIEXPL_BIEN_00010":
+{
+	"frame": {"x":1,"y":1,"w":212,"h":178},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":110,"y":61,"w":212,"h":178},
+	"sourceSize": {"w":403,"h":306}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "ANTIEXPL_BIEN.png",
+	"format": "RGBA8888",
+	"size": {"w":424,"h":857},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5c6b608a3997fe753512b21d7f2a16ea:def2ec0e88525a8f56b730cb99f8345c:f425fb26fe0256c251f254ac87a71f4a$"
+}
+}
