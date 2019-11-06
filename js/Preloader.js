@@ -18,14 +18,14 @@ class PreLoader extends Phaser.Scene{
         for(i = 0;i<315;i++){
             this.load.image('mapa'+i,'img/mapa/images/mapa2_'+(i+1)+'.png');
         }
-        for(i = 0;i<12;i++){
+        /*for(i = 0;i<12;i++){
             //img\Buldings
             this.load.svg('edificio'+i,'img/Buldings/Recurso'+(i+1)+'.svg',{width: this.widthArrayB[i], height: this.heightarrayB[i]});
-        }
-        for(i = 0;i<21;i++){
+        }*/
+        /*for(i = 0;i<21;i++){
             //img\Buldings
             this.load.svg('prop'+i,'img/props/prop'+(i)+'.svg',{width: this.widthArrayP[i], height: this.heightarrayP[i]});
-        }
+        }*/
         for(i = 0;i<24;i++){
             //img\Buldings
             this.load.svg('Recurso'+(i+1),'img/hud/Recurso'+(i+1)+'.svg',{width: this.widthArrayH[i], height: this.heightarrayH[i]});
@@ -143,19 +143,26 @@ class PreLoader extends Phaser.Scene{
 
         this.load.atlas('esmad_bien','img/Animaciones/1_ESMAD/1_ESMAD_BIEN/ESMAD_BIEN.png','img/Animaciones/1_ESMAD/1_ESMAD_BIEN/ESMAD_BIEN.json');
         this.load.atlas('esmad_loop','img/Animaciones/1_ESMAD/1_ESMAD_LOOP/ESMAD_LOOP.png','img/Animaciones/1_ESMAD/1_ESMAD_LOOP/ESMAD_LOOP.json');
+
         this.load.atlas('antiexpl_bien','img/Animaciones/2_ANTIEXPLOSIVOS/2_ANTIEXPL_BIEN/ANTIEXPL_BIEN.png','img/Animaciones/2_ANTIEXPLOSIVOS/2_ANTIEXPL_BIEN/ANTIEXPL_BIEN.json');
         this.load.atlas('antiexpl_loop','img/Animaciones/2_ANTIEXPLOSIVOS/2_ANTIEXPL_LOOP/ANTIEXPL_LOOP.png','img/Animaciones/2_ANTIEXPLOSIVOS/2_ANTIEXPL_LOOP/ANTIEXPL_LOOP.json');
+        
         this.load.atlas('gaula_bien','img/Animaciones/3_GAULA/3_Gaula_BIEN/Gaula_BIEN.png','img/Animaciones/3_GAULA/3_Gaula_BIEN/Gaula_BIEN.json');
         this.load.atlas('gaula_loop','img/Animaciones/3_GAULA/3_Gaula_LOOP/Gaula_LOOP.png','img/Animaciones/3_GAULA/3_Gaula_LOOP/Gaula_LOOP.json');
         this.load.atlas('gaula_mal','img/Animaciones/3_GAULA/3_Gaula_MAL/Gaula_MAL.png','img/Animaciones/3_GAULA/3_Gaula_MAL/Gaula_MAL.json');
+        
         this.load.atlas('copes_bueno','img/Animaciones/4_COPES/4_COPES_BUENO/COPES_BUENO.png','img/Animaciones/4_COPES/4_COPES_BUENO/COPES_BUENO.json');
         this.load.atlas('copes_loop','img/Animaciones/4_COPES/4_COPES_LOOP/COPES_LOOP.png','img/Animaciones/4_COPES/4_COPES_LOOP/COPES_LOOP.json');
+        
         this.load.atlas('ponalsar_bueno','img/Animaciones/5_PONALSAR/05_PONALSAR_BUENO/PONALSAR_BUENO.png','img/Animaciones/5_PONALSAR/05_PONALSAR_BUENO/PONALSAR_BUENO.json');
+        
         this.load.atlas('carabineros_loop','img/Animaciones/6_CARABINEROS/6_CARABINEROS_LOOP/CARABINEROS_LOOP.png','img/Animaciones/6_CARABINEROS/6_CARABINEROS_LOOP/CARABINEROS_LOOP.json');
         this.load.atlas('carabineros_mal','img/Animaciones/6_CARABINEROS/6_CARABINEROS_MAL/CARABINEROS_MAL.png','img/Animaciones/6_CARABINEROS/6_CARABINEROS_MAL/CARABINEROS_MAL.json');
+        
         this.load.atlas('transito_bien','img/Animaciones/7_TRANSITO/7_TRANSITO_BIEN/TRANSITO_BIEN.png','img/Animaciones/7_TRANSITO/7_TRANSITO_BIEN/TRANSITO_BIEN.json');
         this.load.atlas('transito_loop','img/Animaciones/7_TRANSITO/7_TRANSITO_LOOP/TRANSITO_LOOP.png','img/Animaciones/7_TRANSITO/7_TRANSITO_LOOP/TRANSITO_LOOP.json');
         this.load.atlas('transito_mal','img/Animaciones/7_TRANSITO/7_TRANSITO_MAL/TRANSITO_MAL.png','img/Animaciones/7_TRANSITO/7_TRANSITO_MAL/TRANSITO_MAL.json');
+        
         this.load.atlas('guia_bueno','img/Animaciones/9_GUIA_CANINO/09_GUIA_PERRITO_BUENO/GUIA_PERRITO_BUENO.png','img/Animaciones/9_GUIA_CANINO/09_GUIA_PERRITO_BUENO/GUIA_PERRITO_BUENO.json');
         this.load.atlas('guia_loop','img/Animaciones/9_GUIA_CANINO/09_GUIA_PERRITO_LOOP/GUIA_PERRITO_LOOP.png','img/Animaciones/9_GUIA_CANINO/09_GUIA_PERRITO_LOOP/GUIA_PERRITO_LOOP.json');
 

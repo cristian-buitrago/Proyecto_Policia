@@ -6,7 +6,7 @@ class Game extends Phaser.Scene{
         
 
         this.mapArray = [1  ,1  ,1  ,1  ,1  ,1  ,1  ,1  ,1  ,10 ,11 ,12 ,13 ,1  ,1  ,1  ,1  ,1  ,1  ,1  ,1  ,
-                    1  ,1  ,1  ,1  ,1  ,1  ,1  ,1  ,30 ,31 ,32 ,33 ,34 ,35 ,1  ,1  ,1  ,1  ,1  ,1  ,1  ,
+                        1  ,1  ,1  ,1  ,1  ,1  ,1  ,1  ,30 ,31 ,32 ,33 ,34 ,35 ,1  ,1  ,1  ,1  ,1  ,1  ,1  ,
                     1  ,1  ,1  ,1  ,1  ,1  ,49 ,50 ,51 ,52 ,53 ,54 ,55 ,56 ,57 ,58 ,1  ,1  ,1  ,1  ,1  ,
                     1  ,1  ,1  ,1  ,68 ,69 ,70 ,71 ,72 ,73 ,74 ,75 ,76 ,77 ,78 ,79 ,80 ,81 ,1  ,1  ,1  ,
                     1  ,1  ,87 ,88 ,89 ,90 ,91 ,92 ,93 ,94 ,95 ,96 ,97 ,98 ,99 ,100,101,102,103,104,1  ,
@@ -63,7 +63,7 @@ class Game extends Phaser.Scene{
         this.totalPoints = 0;
 
         //Edificios
-        this.edificio1 = this.add.image(1453,507,'edificio0').setOrigin(0,0);
+        /*this.edificio1 = this.add.image(1453,507,'edificio0').setOrigin(0,0);
         this.edificio2 = this.add.image(3897,2216,'edificio1').setOrigin(0,0);
         this.edificio3 = this.add.image(2479,2225,'edificio2').setOrigin(0,0);
         this.edificio4 = this.add.image(4308,1680,'edificio3').setOrigin(0,0);
@@ -75,10 +75,10 @@ class Game extends Phaser.Scene{
         this.edificio10 = this.add.image(2436,760,'edificio8').setOrigin(0,0);
         this.edificio11 = this.add.image(3611,399,'edificio9').setOrigin(0,0);
         this.edificio12 = this.add.image(1985,1613,'edificio10').setOrigin(0,0);
-        this.edificio13 = this.add.image(3494,1945,'edificio11').setOrigin(0,0);
+        this.edificio13 = this.add.image(3494,1945,'edificio11').setOrigin(0,0);*/
 
         ///props
-        this.prop0 = this.add.image(2730,3098,'prop0').setOrigin(0,0);
+        /*this.prop0 = this.add.image(2730,3098,'prop0').setOrigin(0,0);
         this.prop1 = this.add.image(2738,2074,'prop1').setOrigin(0,0);
         this.prop2 = this.add.image(4319,2530,'prop2').setOrigin(0,0);
         this.prop3 = this.add.image(2749,4063,'prop3').setOrigin(0,0);
@@ -99,7 +99,7 @@ class Game extends Phaser.Scene{
         this.prop18 = this.add.image(2193,2714,'prop17').setOrigin(0,0);
         this.prop19 = this.add.image(2453,2844,'prop19').setOrigin(0,0);
         this.prop20 = this.add.image(2754,2607,'prop20').setOrigin(0,0);
-        this.prop21 = this.add.image(1759,2034,'prop9').setOrigin(0,0);
+        this.prop21 = this.add.image(1759,2034,'prop9').setOrigin(0,0);*/
 
         this.flag1 = this.add.image(4713,1192,'canino').setOrigin(0,0);
         this.flag1.setInteractive();
@@ -149,7 +149,7 @@ class Game extends Phaser.Scene{
 
         this.controlArray = [this.control1,this.control2,this.control3,this.control4,this.control5,this.control6,this.control7,this.control8,this.control9,this.control10];
 
-        this.map.add(this.edificio1);
+       /* this.map.add(this.edificio1);
         this.map.add(this.prop5);
         this.map.add(this.prop6);
         this.map.add(this.prop7);
@@ -183,7 +183,7 @@ class Game extends Phaser.Scene{
         this.map.add(this.prop18);
         this.map.add(this.prop19);
         this.map.add(this.prop20);
-        this.map.add(this.prop21);
+        this.map.add(this.prop21);*/
 
         this.createAnimation();
 
@@ -220,14 +220,14 @@ class Game extends Phaser.Scene{
         this.animaCarabinerosMal = this.add.sprite(1570,2780,'carabineros_mal','06_CARABINEROS_MAL_00001').play('carabineros_mal');
         this.map.add(this.animaCarabinerosMal);
         
-        this.animaTransitoLoop = this.add.sprite(3475,3300,'transito_loop','07_TRANSITO_LOOP_00001').play('transito_loop');
-        this.map.add(this.animaTransitoLoop);
+        //this.animaTransitoLoop = this.add.sprite(3475,3300,'transito_loop','07_TRANSITO_LOOP_00001').play('transito_loop');
+        //this.map.add(this.animaTransitoLoop);
 
-        this.animaTransitoBien = this.add.sprite(3475,3300,'transito_bien','07_TRANSITO_BIEN_00001').play('transito_bien');
-        this.map.add(this.animaTransitoBien);
+        //this.animaTransitoBien = this.add.sprite(3475,3300,'transito_bien','07_TRANSITO_BIEN_00001').play('transito_bien');
+        //this.map.add(this.animaTransitoBien);
 
-        this.animaTransitoMal = this.add.sprite(3475,3300,'transito_mal','07_TRANSITO_MAL_00001').play('transito_mal');
-        this.map.add(this.animaTransitoMal);
+        //this.animaTransitoMal = this.add.sprite(3475,3300,'transito_mal','07_TRANSITO_MAL_00001').play('transito_mal');
+        //this.map.add(this.animaTransitoMal);
 
         this.animaPerritoLoop = this.add.sprite(5040,1400,'guia_loop','09_GUIA_PERRITO_LOOP_00001').play('guia_loop');
         this.map.add(this.animaPerritoLoop);
@@ -244,8 +244,8 @@ class Game extends Phaser.Scene{
         this.animaGaulaMal.visible = false;
         this.animaCopesBueno.visible = false;
         this.animaCarabinerosLoop.visible = false;
-        this.animaTransitoBien.visible = false;
-        this.animaTransitoMal.visible = false;
+        //this.animaTransitoBien.visible = false;
+        //this.animaTransitoMal.visible = false;
         this.animaPerritoBueno.visible = false;
         this.animaPonalsarBueno.visible = false;
  
@@ -657,6 +657,7 @@ class Game extends Phaser.Scene{
 
     }
     finPregunta(){
+        this.seccionArray[this.currentIndex].aniamcionloop.visible = false;
         if(this.currenPoints == 5){
             this.totalPoints ++;
             this.fondoFinal.setTexture('bien');
@@ -665,11 +666,14 @@ class Game extends Phaser.Scene{
             this.texto.setText(this.totalPoints + '/10');
             this.flagArray[this.currentIndex].visible = false;
             this.controlArray[this.currentIndex].visible = true;
+            this.seccionArray[this.currentIndex].animacionBien.visible = true;
 
         }else{
             this.fondoFinal.setTexture('mal');
             this.refuerzos.visible = true;
             this.texto.visible = false;
+            this.seccionArray[this.currentIndex].animacionMal.visible = true;
+            this.flagArray[this.currentIndex].visible = false;
 
         }
         this.hiddeGroup(this.contRes);
@@ -937,8 +941,8 @@ class Game extends Phaser.Scene{
             info: 'i_ponalsar',
             boton: 'b_ponalsar',
             animacionBien: this.animaPonalsarBueno,
-            animacionMal:  this.animaTransitoMal,
-            aniamcionloop:  this.animaTransitoLoop,
+            animacionMal:  this.animaPonalsarBueno,
+            aniamcionloop:  this.animaPonalsarBueno,
         }
         this.polfa  = {
             name:"polfa",
