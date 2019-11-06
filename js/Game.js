@@ -199,7 +199,7 @@ class Game extends Phaser.Scene{
         this.animaAntiexpBien = this.add.sprite(2150,1450,'antiexpl_bien','2_ANTIEXPL_BIEN_00001').play('antiexpl_bien');
         this.map.add(this.animaAntiexpBien);
         
-        this.animaGaulaLoop = this.add.sprite(4275,2505,'gaula_loop','3_Gaula_LOOP_00001').play('gaula_loop');
+        this.animaGaulaLoop = this.add.sprite(4190,2477,'gaula_loop','3_Gaula_LOOP_00001').play('gaula_loop');
         this.map.add(this.animaGaulaLoop);
 
         this.animaGaulaBien = this.add.sprite(4275,2505,'gaula_bien','3_Gaula_BIEN_00001').play('gaula_bien');
@@ -208,7 +208,7 @@ class Game extends Phaser.Scene{
         this.animaGaulaMal = this.add.sprite(4275,2505,'gaula_mal','3_Gaula_MAL_00001').play('gaula_mal');
         this.map.add(this.animaGaulaMal);
 
-        this.animaCopesLoop = this.add.sprite(3580,2470,'copes_loop','01_COPES_LOOP_00001').play('copes_loop');
+        this.animaCopesLoop = this.add.sprite(3775,2200,'copes_loop','01_COPES_LOOP_00001').play('copes_loop');
         this.map.add(this.animaCopesLoop);
 
         this.animaCopesBueno = this.add.sprite(3775,2200,'copes_bueno','01_COPES_BUENO_00001').play('copes_bueno');
