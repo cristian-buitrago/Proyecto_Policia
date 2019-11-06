@@ -283,6 +283,8 @@ class Game extends Phaser.Scene{
         this.SoundOff = this.add.image(-12,150,'Recurso12').setOrigin(0,0);
         //this.help = this.add.image(-12,339,'Recurso11').setOrigin(0,0);
         this.pre = this.add.image(-12,920,'Recurso14').setOrigin(0,0);
+        this.pre.setInteractive();
+        this.pre.on('pointerup', () => { window.location.href = "https://sinco.policia.gov.co/sitiopreinscripcion/ZonaPublica/InicioPre.aspx"; })
 
         console.log(this.btBack.width);
 
