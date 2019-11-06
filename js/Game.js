@@ -281,7 +281,7 @@ class Game extends Phaser.Scene{
 
         this.SoundOn = this.add.image(-12,150,'Recurso15').setOrigin(0,0);
         this.SoundOff = this.add.image(-12,150,'Recurso12').setOrigin(0,0);
-        this.help = this.add.image(-12,339,'Recurso11').setOrigin(0,0);
+        //this.help = this.add.image(-12,339,'Recurso11').setOrigin(0,0);
         this.pre = this.add.image(-12,920,'Recurso14').setOrigin(0,0);
 
         console.log(this.btBack.width);
@@ -292,7 +292,7 @@ class Game extends Phaser.Scene{
         this.hud.add(this.add.image(this.btBack.width+7,7,'logo').setOrigin(0,0).setScale(0.07,0.07));
         this.hud.add(this.SoundOff);
         this.hud.add(this.SoundOn);
-        this.hud.add(this.help);
+        //this.hud.add(this.help);
         this.hud.add(this.pre);
 
 
@@ -396,11 +396,11 @@ class Game extends Phaser.Scene{
         this.corregir = this.add.image(1224,968,'corregir').setOrigin(0,0);
         this.corregir.setInteractive();
         this.corregir.on('pointerup', () => { this.resetAnswer(); });
-        this.n1 = this.add.image(1058,301,'n1').setOrigin(0,0);
-        this.n2 = this.add.image(1058,428,'n2').setOrigin(0,0);
-        this.n3 = this.add.image(1058,553,'n3').setOrigin(0,0);
-        this.n4 = this.add.image(1058,677,'n4').setOrigin(0,0);
-        this.n5 = this.add.image(1058,800,'n5').setOrigin(0,0);
+        this.n1 = this.add.image(1043,306,'n1').setOrigin(0,0);
+        this.n2 = this.add.image(1043,433,'n2').setOrigin(0,0);
+        this.n3 = this.add.image(1043,558,'n3').setOrigin(0,0);
+        this.n4 = this.add.image(1043,682,'n4').setOrigin(0,0);
+        this.n5 = this.add.image(1043,805,'n5').setOrigin(0,0);
 
 
         this.fondoFinal = this.add.image(1090,0,'bien').setOrigin(0,0);
