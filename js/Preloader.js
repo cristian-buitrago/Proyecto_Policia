@@ -152,11 +152,11 @@ class PreLoader extends Phaser.Scene{
         this.load.svg('esmad3','img/flags/esmad_3.svg',{width: 894,height:112});
         this.load.svg('esmad4','img/flags/esmad_4.svg',{width: 894,height:112});
         this.load.svg('esmad5','img/flags/esmad_5.svg',{width: 894,height:112});
-        this.load.svg('explosivo1','img/flags/explosivos_1.svg',{width: 894,height:112});
-        this.load.svg('explosivo2','img/flags/explosivos_2.svg',{width: 894,height:112});
-        this.load.svg('explosivo3','img/flags/explosivos_3.svg',{width: 894,height:112});
-        this.load.svg('explosivo4','img/flags/explosivos_4.svg',{width: 894,height:112});
-        this.load.svg('explosivo5','img/flags/explosivos_5.svg',{width: 894,height:112});
+        this.load.svg('explosivo1','img/flags/explosivo_1.svg',{width: 894,height:112});
+        this.load.svg('explosivo2','img/flags/explosivo_2.svg',{width: 894,height:112});
+        this.load.svg('explosivo3','img/flags/explosivo_3.svg',{width: 894,height:112});
+        this.load.svg('explosivo4','img/flags/explosivo_4.svg',{width: 894,height:112});
+        this.load.svg('explosivo5','img/flags/explosivo_5.svg',{width: 894,height:112});
         this.load.svg('gaula1','img/flags/gaula_1.svg',{width: 894,height:112});
         this.load.svg('gaula2','img/flags/gaula_2.svg',{width: 894,height:112});
         this.load.svg('gaula3','img/flags/gaula_3.svg',{width: 894,height:112});
@@ -212,6 +212,7 @@ class PreLoader extends Phaser.Scene{
 
         this.load.atlas('antiexpl_bien','img/Animaciones/2_ANTIEXPLOSIVOS/2_ANTIEXPL_BIEN/ANTIEXPL_BIEN.png','img/Animaciones/2_ANTIEXPLOSIVOS/2_ANTIEXPL_BIEN/ANTIEXPL_BIEN.json');
         this.load.atlas('antiexpl_loop','img/Animaciones/2_ANTIEXPLOSIVOS/2_ANTIEXPL_LOOP/ANTIEXPL_LOOP.png','img/Animaciones/2_ANTIEXPLOSIVOS/2_ANTIEXPL_LOOP/ANTIEXPL_LOOP.json');
+        this.load.atlas('antiexpl_mal','img/Animaciones/2_ANTIEXPLOSIVOS/2_ANTIEXPL_MAL/ANTIEXPL_MAL.png','img/Animaciones/2_ANTIEXPLOSIVOS/2_ANTIEXPL_MAL/ANTIEXPL_MAL.json');
         
         this.load.atlas('gaula_bien','img/Animaciones/3_GAULA/3_Gaula_BIEN/Gaula_BIEN.png','img/Animaciones/3_GAULA/3_Gaula_BIEN/Gaula_BIEN.json');
         this.load.atlas('gaula_loop','img/Animaciones/3_GAULA/3_Gaula_LOOP/Gaula_LOOP.png','img/Animaciones/3_GAULA/3_Gaula_LOOP/Gaula_LOOP.json');
@@ -219,19 +220,30 @@ class PreLoader extends Phaser.Scene{
         
         this.load.atlas('copes_bueno','img/Animaciones/4_COPES/4_COPES_BUENO/COPES_BUENO.png','img/Animaciones/4_COPES/4_COPES_BUENO/COPES_BUENO.json');
         this.load.atlas('copes_loop','img/Animaciones/4_COPES/4_COPES_LOOP/COPES_LOOP.png','img/Animaciones/4_COPES/4_COPES_LOOP/COPES_LOOP.json');
+        this.load.atlas('copes_malo','img/Animaciones/4_COPES/4_COPES_MALO/COPES_MALO.png','img/Animaciones/4_COPES/4_COPES_MALO/COPES_MALO.json');
         
         this.load.atlas('ponalsar_bueno','img/Animaciones/5_PONALSAR/05_PONALSAR_BUENO/PONALSAR_BUENO.png','img/Animaciones/5_PONALSAR/05_PONALSAR_BUENO/PONALSAR_BUENO.json');
-        
+        this.load.atlas('ponalsar_loop','img/Animaciones/5_PONALSAR/05_PONALSAR_LOOP/PONALSAR_LOOP.png','img/Animaciones/5_PONALSAR/05_PONALSAR_LOOP/PONALSAR_LOOP.json');
+        this.load.atlas('ponalsar_malo','img/Animaciones/5_PONALSAR/05_PONALSAR_MALO/PONALSAR_MALO.png','img/Animaciones/5_PONALSAR/05_PONALSAR_MALO/PONALSAR_MALO.json');
+
+        this.load.atlas('carabineros_bien','img/Animaciones/6_CARABINEROS/6_CARABINEROS_BIEN/CARABINEROS_BIEN.png','img/Animaciones/6_CARABINEROS/6_CARABINEROS_BIEN/CARABINEROS_BIEN.json');
         this.load.atlas('carabineros_loop','img/Animaciones/6_CARABINEROS/6_CARABINEROS_LOOP/CARABINEROS_LOOP.png','img/Animaciones/6_CARABINEROS/6_CARABINEROS_LOOP/CARABINEROS_LOOP.json');
         this.load.atlas('carabineros_mal','img/Animaciones/6_CARABINEROS/6_CARABINEROS_MAL/CARABINEROS_MAL.png','img/Animaciones/6_CARABINEROS/6_CARABINEROS_MAL/CARABINEROS_MAL.json');
         
         this.load.atlas('transito_bien','img/Animaciones/7_TRANSITO/7_TRANSITO_BIEN/TRANSITO_BIEN.png','img/Animaciones/7_TRANSITO/7_TRANSITO_BIEN/TRANSITO_BIEN.json');
         this.load.atlas('transito_loop','img/Animaciones/7_TRANSITO/7_TRANSITO_LOOP/TRANSITO_LOOP.png','img/Animaciones/7_TRANSITO/7_TRANSITO_LOOP/TRANSITO_LOOP.json');
         this.load.atlas('transito_mal','img/Animaciones/7_TRANSITO/7_TRANSITO_MAL/TRANSITO_MAL.png','img/Animaciones/7_TRANSITO/7_TRANSITO_MAL/TRANSITO_MAL.json');
+
+        this.load.atlas('polfa_bueno','img/Animaciones/8_POLFA/8_POLFA_BUENO/POLFA_BUENO.png','img/Animaciones/8_POLFA/8_POLFA_BUENO/POLFA_BUENO.json');
+        this.load.atlas('polfa_loop','img/Animaciones/8_POLFA/8_POLFA_LOOP/POLFA_LOOP.png','img/Animaciones/8_POLFA/8_POLFA_LOOP/POLFA_LOOP.json');
+        this.load.atlas('polfa_malo','img/Animaciones/8_POLFA/8_POLFA_MALO/POLFA_MALO.png','img/Animaciones/8_POLFA/8_POLFA_MALO/POLFA_MALO.json');
         
         this.load.atlas('guia_bueno','img/Animaciones/9_GUIA_CANINO/09_GUIA_PERRITO_BUENO/GUIA_PERRITO_BUENO.png','img/Animaciones/9_GUIA_CANINO/09_GUIA_PERRITO_BUENO/GUIA_PERRITO_BUENO.json');
         this.load.atlas('guia_loop','img/Animaciones/9_GUIA_CANINO/09_GUIA_PERRITO_LOOP/GUIA_PERRITO_LOOP.png','img/Animaciones/9_GUIA_CANINO/09_GUIA_PERRITO_LOOP/GUIA_PERRITO_LOOP.json');
+        this.load.atlas('guia_malo','img/Animaciones/9_GUIA_CANINO/09_GUIA_PERRITO_MALO/GUIA_PERRITO_MALO.png','img/Animaciones/9_GUIA_CANINO/09_GUIA_PERRITO_MALO/GUIA_PERRITO_MALO.json');
 
+        this.load.atlas('agentes_loop','img/Animaciones/10_AGENTES/10_AGENTES_LOOP/AGENTES_LOOP.png','img/Animaciones/10_AGENTES/10_AGENTES_LOOP/AGENTES_LOOP.json');
+        this.load.atlas('agentes_mal','img/Animaciones/10_AGENTES/10_AGENTES_MAL/AGENTES_MAL.png','img/Animaciones/10_AGENTES/10_AGENTES_MAL/AGENTES_MAL.json');
 
         this.load.svg('barra','img/hud/barra.svg',{width: 1950,height:130});
 

@@ -1,0 +1,1124 @@
+{"frames": {
+
+"09_GUIA_PERRITO_MALO_00001":
+{
+	"frame": {"x":1,"y":1,"w":554,"h":259},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":196,"w":554,"h":259},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00002":
+{
+	"frame": {"x":1,"y":262,"w":554,"h":256},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":199,"w":554,"h":256},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00003":
+{
+	"frame": {"x":1,"y":520,"w":554,"h":253},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":202,"w":554,"h":253},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00004":
+{
+	"frame": {"x":1,"y":775,"w":554,"h":250},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":205,"w":554,"h":250},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00005":
+{
+	"frame": {"x":1,"y":1027,"w":554,"h":247},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":208,"w":554,"h":247},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00006":
+{
+	"frame": {"x":1,"y":1276,"w":554,"h":244},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":211,"w":554,"h":244},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00007":
+{
+	"frame": {"x":1,"y":1522,"w":554,"h":241},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":214,"w":554,"h":241},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00008":
+{
+	"frame": {"x":1,"y":1765,"w":554,"h":238},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":217,"w":554,"h":238},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00009":
+{
+	"frame": {"x":1,"y":2005,"w":554,"h":235},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":220,"w":554,"h":235},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00010":
+{
+	"frame": {"x":1,"y":2242,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00011":
+{
+	"frame": {"x":1,"y":2476,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00012":
+{
+	"frame": {"x":1,"y":2710,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00013":
+{
+	"frame": {"x":1,"y":2944,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00014":
+{
+	"frame": {"x":1,"y":3178,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00015":
+{
+	"frame": {"x":1,"y":3412,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00016":
+{
+	"frame": {"x":1,"y":3646,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00017":
+{
+	"frame": {"x":557,"y":1,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00018":
+{
+	"frame": {"x":557,"y":235,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00019":
+{
+	"frame": {"x":557,"y":469,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00020":
+{
+	"frame": {"x":557,"y":703,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00021":
+{
+	"frame": {"x":557,"y":937,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00022":
+{
+	"frame": {"x":557,"y":1171,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00023":
+{
+	"frame": {"x":557,"y":1405,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00024":
+{
+	"frame": {"x":557,"y":1639,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00025":
+{
+	"frame": {"x":557,"y":1873,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00026":
+{
+	"frame": {"x":557,"y":2107,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00027":
+{
+	"frame": {"x":557,"y":2341,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00028":
+{
+	"frame": {"x":557,"y":2575,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00029":
+{
+	"frame": {"x":557,"y":2809,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00030":
+{
+	"frame": {"x":557,"y":3043,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00031":
+{
+	"frame": {"x":557,"y":3277,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00032":
+{
+	"frame": {"x":557,"y":3511,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00033":
+{
+	"frame": {"x":557,"y":3745,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00034":
+{
+	"frame": {"x":1113,"y":1,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00035":
+{
+	"frame": {"x":1113,"y":235,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00036":
+{
+	"frame": {"x":1113,"y":469,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00037":
+{
+	"frame": {"x":1113,"y":703,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00038":
+{
+	"frame": {"x":1113,"y":937,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00039":
+{
+	"frame": {"x":1113,"y":1171,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00040":
+{
+	"frame": {"x":1113,"y":1405,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00041":
+{
+	"frame": {"x":1113,"y":1639,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00042":
+{
+	"frame": {"x":1113,"y":1873,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00043":
+{
+	"frame": {"x":1113,"y":2107,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00044":
+{
+	"frame": {"x":1113,"y":2341,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00045":
+{
+	"frame": {"x":1113,"y":2575,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00046":
+{
+	"frame": {"x":1113,"y":2809,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00047":
+{
+	"frame": {"x":1113,"y":3043,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00048":
+{
+	"frame": {"x":1113,"y":3277,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00049":
+{
+	"frame": {"x":1113,"y":3511,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00050":
+{
+	"frame": {"x":1113,"y":3745,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00051":
+{
+	"frame": {"x":1669,"y":1,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00052":
+{
+	"frame": {"x":1669,"y":235,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00053":
+{
+	"frame": {"x":1669,"y":469,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00054":
+{
+	"frame": {"x":1669,"y":703,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00055":
+{
+	"frame": {"x":1669,"y":937,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00056":
+{
+	"frame": {"x":1669,"y":1171,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00057":
+{
+	"frame": {"x":1669,"y":1405,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00058":
+{
+	"frame": {"x":1669,"y":1639,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00059":
+{
+	"frame": {"x":1669,"y":1873,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00060":
+{
+	"frame": {"x":1669,"y":2107,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00061":
+{
+	"frame": {"x":1669,"y":2341,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00062":
+{
+	"frame": {"x":1669,"y":2575,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00063":
+{
+	"frame": {"x":1669,"y":2809,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00064":
+{
+	"frame": {"x":1669,"y":3043,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00065":
+{
+	"frame": {"x":1669,"y":3277,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00066":
+{
+	"frame": {"x":1669,"y":3511,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00067":
+{
+	"frame": {"x":1669,"y":3745,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00068":
+{
+	"frame": {"x":2225,"y":1,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00069":
+{
+	"frame": {"x":2225,"y":235,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00070":
+{
+	"frame": {"x":2225,"y":469,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00071":
+{
+	"frame": {"x":2225,"y":469,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00072":
+{
+	"frame": {"x":2225,"y":469,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00073":
+{
+	"frame": {"x":2225,"y":469,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00074":
+{
+	"frame": {"x":2225,"y":469,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00075":
+{
+	"frame": {"x":2225,"y":469,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00076":
+{
+	"frame": {"x":2225,"y":469,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00077":
+{
+	"frame": {"x":2225,"y":469,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00078":
+{
+	"frame": {"x":2225,"y":469,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00079":
+{
+	"frame": {"x":2225,"y":469,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00080":
+{
+	"frame": {"x":2225,"y":469,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00081":
+{
+	"frame": {"x":2225,"y":469,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00082":
+{
+	"frame": {"x":2225,"y":703,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00083":
+{
+	"frame": {"x":2225,"y":937,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00084":
+{
+	"frame": {"x":2225,"y":1171,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00085":
+{
+	"frame": {"x":2225,"y":1405,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00086":
+{
+	"frame": {"x":2225,"y":1639,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00087":
+{
+	"frame": {"x":2225,"y":1873,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00088":
+{
+	"frame": {"x":2225,"y":2107,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00089":
+{
+	"frame": {"x":2225,"y":2341,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00090":
+{
+	"frame": {"x":2225,"y":2575,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00091":
+{
+	"frame": {"x":2225,"y":2809,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00092":
+{
+	"frame": {"x":2225,"y":3043,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00093":
+{
+	"frame": {"x":2225,"y":3277,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00094":
+{
+	"frame": {"x":2225,"y":3511,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00095":
+{
+	"frame": {"x":2225,"y":3745,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00096":
+{
+	"frame": {"x":2781,"y":1,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00097":
+{
+	"frame": {"x":2781,"y":1,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00098":
+{
+	"frame": {"x":2781,"y":235,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00099":
+{
+	"frame": {"x":2781,"y":469,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00100":
+{
+	"frame": {"x":2781,"y":703,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00101":
+{
+	"frame": {"x":2781,"y":937,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00102":
+{
+	"frame": {"x":2781,"y":1171,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00103":
+{
+	"frame": {"x":2781,"y":1405,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00104":
+{
+	"frame": {"x":2781,"y":1639,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00105":
+{
+	"frame": {"x":2781,"y":1873,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00106":
+{
+	"frame": {"x":2781,"y":2107,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00107":
+{
+	"frame": {"x":2781,"y":2341,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00108":
+{
+	"frame": {"x":2781,"y":2575,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00109":
+{
+	"frame": {"x":2781,"y":2809,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00110":
+{
+	"frame": {"x":2781,"y":3043,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00111":
+{
+	"frame": {"x":2781,"y":3277,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00112":
+{
+	"frame": {"x":2781,"y":3511,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00113":
+{
+	"frame": {"x":2781,"y":3745,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00114":
+{
+	"frame": {"x":3337,"y":1,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00115":
+{
+	"frame": {"x":3337,"y":235,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00116":
+{
+	"frame": {"x":3337,"y":469,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00117":
+{
+	"frame": {"x":3337,"y":703,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00118":
+{
+	"frame": {"x":3337,"y":937,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00119":
+{
+	"frame": {"x":3337,"y":1171,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00120":
+{
+	"frame": {"x":3337,"y":1405,"w":554,"h":232},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":223,"w":554,"h":232},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00121":
+{
+	"frame": {"x":3337,"y":1639,"w":545,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":229,"w":545,"h":226},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00122":
+{
+	"frame": {"x":3337,"y":1867,"w":526,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":235,"w":526,"h":220},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00123":
+{
+	"frame": {"x":3337,"y":2089,"w":508,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":235,"w":508,"h":220},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00124":
+{
+	"frame": {"x":3337,"y":2311,"w":489,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":235,"w":489,"h":220},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00125":
+{
+	"frame": {"x":3337,"y":2533,"w":470,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":235,"w":470,"h":220},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00126":
+{
+	"frame": {"x":3337,"y":2755,"w":451,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":235,"w":451,"h":220},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00127":
+{
+	"frame": {"x":3337,"y":2977,"w":433,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":235,"w":433,"h":220},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00128":
+{
+	"frame": {"x":3337,"y":3199,"w":414,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":235,"w":414,"h":220},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00129":
+{
+	"frame": {"x":3337,"y":3421,"w":395,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":235,"w":395,"h":220},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00130":
+{
+	"frame": {"x":3337,"y":3643,"w":376,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":235,"w":376,"h":220},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00131":
+{
+	"frame": {"x":3715,"y":3643,"w":358,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":235,"w":358,"h":220},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00132":
+{
+	"frame": {"x":3734,"y":3421,"w":339,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":235,"w":339,"h":220},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00133":
+{
+	"frame": {"x":3753,"y":3199,"w":320,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":235,"w":320,"h":220},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00134":
+{
+	"frame": {"x":3772,"y":2977,"w":247,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":235,"w":247,"h":220},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00135":
+{
+	"frame": {"x":3790,"y":2755,"w":227,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":235,"w":227,"h":220},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00136":
+{
+	"frame": {"x":3809,"y":2533,"w":208,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":235,"w":208,"h":220},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00137":
+{
+	"frame": {"x":3828,"y":2311,"w":189,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":235,"w":189,"h":220},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00138":
+{
+	"frame": {"x":3847,"y":2089,"w":178,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":235,"w":178,"h":220},
+	"sourceSize": {"w":754,"h":455}
+},
+"09_GUIA_PERRITO_MALO_00139":
+{
+	"frame": {"x":3865,"y":1867,"w":178,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":235,"w":178,"h":220},
+	"sourceSize": {"w":754,"h":455}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "GUIA_PERRITO_MALO.png",
+	"format": "RGBA8888",
+	"size": {"w":4074,"h":3978},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:fbe505d25e2d2fe653ed7ef51d02ea9b:51114b12eeab974c60a9dcc402cd89fe:2ef37e9bb5ae40c6b5580fc95b049a9b$"
+}
+}

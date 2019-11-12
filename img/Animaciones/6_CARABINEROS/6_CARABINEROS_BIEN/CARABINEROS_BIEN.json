@@ -1,0 +1,612 @@
+{"frames": {
+
+"06_CARABINEROS_BIEN_00001":
+{
+	"frame": {"x":1231,"y":2679,"w":1137,"h":504},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":223,"y":34,"w":1137,"h":504},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00002":
+{
+	"frame": {"x":1,"y":2567,"w":1228,"h":501},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":223,"y":37,"w":1228,"h":501},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00003":
+{
+	"frame": {"x":2123,"y":2202,"w":1214,"h":475},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":223,"y":63,"w":1214,"h":475},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00004":
+{
+	"frame": {"x":2750,"y":1743,"w":1089,"h":457},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":223,"y":81,"w":1089,"h":457},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00005":
+{
+	"frame": {"x":1,"y":1638,"w":1051,"h":417},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":223,"y":121,"w":1051,"h":417},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00006":
+{
+	"frame": {"x":1917,"y":1298,"w":978,"h":410},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":223,"y":128,"w":978,"h":410},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00007":
+{
+	"frame": {"x":3108,"y":964,"w":940,"h":360},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":223,"y":178,"w":940,"h":360},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00008":
+{
+	"frame": {"x":2221,"y":937,"w":885,"h":359},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":223,"y":179,"w":885,"h":359},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00009":
+{
+	"frame": {"x":784,"y":1,"w":826,"h":308},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":223,"y":230,"w":826,"h":308},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00010":
+{
+	"frame": {"x":1,"y":1,"w":781,"h":305},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":223,"y":233,"w":781,"h":305},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00011":
+{
+	"frame": {"x":1,"y":3070,"w":692,"h":565},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":223,"y":0,"w":692,"h":565},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00012":
+{
+	"frame": {"x":1685,"y":3185,"w":652,"h":574},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":223,"y":0,"w":652,"h":574},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00013":
+{
+	"frame": {"x":522,"y":3640,"w":553,"h":611},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":221,"y":0,"w":553,"h":611},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00014":
+{
+	"frame": {"x":1609,"y":3761,"w":524,"h":623},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":214,"y":9,"w":524,"h":623},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00015":
+{
+	"frame": {"x":1077,"y":3756,"w":530,"h":611},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":147,"y":26,"w":530,"h":611},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00016":
+{
+	"frame": {"x":1,"y":3637,"w":519,"h":606},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":134,"y":43,"w":519,"h":606},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00017":
+{
+	"frame": {"x":3337,"y":3297,"w":535,"h":602},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":94,"y":60,"w":535,"h":602},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00018":
+{
+	"frame": {"x":2826,"y":3289,"w":509,"h":592},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":96,"y":77,"w":509,"h":592},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00019":
+{
+	"frame": {"x":2339,"y":3224,"w":485,"h":575},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":96,"y":94,"w":485,"h":575},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00020":
+{
+	"frame": {"x":695,"y":3070,"w":483,"h":568},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":96,"y":101,"w":483,"h":568},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00021":
+{
+	"frame": {"x":1180,"y":3185,"w":503,"h":569},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":96,"y":100,"w":503,"h":569},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00022":
+{
+	"frame": {"x":3469,"y":2728,"w":523,"h":567},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":96,"y":102,"w":523,"h":567},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00023":
+{
+	"frame": {"x":2925,"y":2728,"w":542,"h":559},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":96,"y":110,"w":542,"h":559},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00024":
+{
+	"frame": {"x":2370,"y":2679,"w":553,"h":543},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":97,"y":126,"w":553,"h":543},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00025":
+{
+	"frame": {"x":3339,"y":2202,"w":559,"h":524},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":94,"y":145,"w":559,"h":524},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00026":
+{
+	"frame": {"x":1584,"y":2142,"w":537,"h":516},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":123,"y":153,"w":537,"h":516},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00027":
+{
+	"frame": {"x":525,"y":2057,"w":518,"h":488},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":161,"y":152,"w":518,"h":488},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00028":
+{
+	"frame": {"x":1,"y":2057,"w":522,"h":477},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":175,"y":155,"w":522,"h":477},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00029":
+{
+	"frame": {"x":1045,"y":2078,"w":537,"h":487},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":176,"y":164,"w":537,"h":487},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00030":
+{
+	"frame": {"x":2198,"y":1710,"w":550,"h":472},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":177,"y":176,"w":550,"h":472},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00031":
+{
+	"frame": {"x":1637,"y":1710,"w":559,"h":430},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":178,"y":191,"w":559,"h":430},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00032":
+{
+	"frame": {"x":3501,"y":1326,"w":568,"h":415},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":177,"y":208,"w":568,"h":415},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00033":
+{
+	"frame": {"x":1054,"y":1658,"w":581,"h":418},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":176,"y":215,"w":581,"h":418},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00034":
+{
+	"frame": {"x":2897,"y":1326,"w":602,"h":411},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":175,"y":214,"w":602,"h":411},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00035":
+{
+	"frame": {"x":1293,"y":1282,"w":622,"h":374},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":174,"y":218,"w":622,"h":374},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00036":
+{
+	"frame": {"x":1,"y":1273,"w":639,"h":363},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":173,"y":229,"w":639,"h":363},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00037":
+{
+	"frame": {"x":642,"y":1273,"w":649,"h":363},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":172,"y":246,"w":649,"h":363},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00038":
+{
+	"frame": {"x":3364,"y":1,"w":651,"h":329},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":172,"y":266,"w":651,"h":329},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00039":
+{
+	"frame": {"x":1,"y":932,"w":669,"h":339},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":173,"y":253,"w":669,"h":339},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00040":
+{
+	"frame": {"x":1483,"y":937,"w":736,"h":343},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":174,"y":249,"w":736,"h":343},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00041":
+{
+	"frame": {"x":672,"y":935,"w":809,"h":336},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":175,"y":256,"w":809,"h":336},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00042":
+{
+	"frame": {"x":3154,"y":644,"w":872,"h":318},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":177,"y":274,"w":872,"h":318},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00043":
+{
+	"frame": {"x":1612,"y":1,"w":876,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":178,"y":282,"w":876,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00044":
+{
+	"frame": {"x":2490,"y":1,"w":872,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":178,"y":282,"w":872,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00045":
+{
+	"frame": {"x":1594,"y":313,"w":856,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":178,"y":282,"w":856,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00046":
+{
+	"frame": {"x":2452,"y":313,"w":834,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":178,"y":282,"w":834,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00047":
+{
+	"frame": {"x":784,"y":311,"w":808,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":178,"y":282,"w":808,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00048":
+{
+	"frame": {"x":784,"y":623,"w":796,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":178,"y":282,"w":796,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00049":
+{
+	"frame": {"x":1582,"y":625,"w":787,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":187,"y":282,"w":787,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00050":
+{
+	"frame": {"x":1,"y":308,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00051":
+{
+	"frame": {"x":3288,"y":332,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00052":
+{
+	"frame": {"x":1,"y":620,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00053":
+{
+	"frame": {"x":1,"y":620,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00054":
+{
+	"frame": {"x":1,"y":620,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00055":
+{
+	"frame": {"x":1,"y":620,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00056":
+{
+	"frame": {"x":1,"y":620,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00057":
+{
+	"frame": {"x":2371,"y":625,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00058":
+{
+	"frame": {"x":2371,"y":625,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00059":
+{
+	"frame": {"x":2371,"y":625,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00060":
+{
+	"frame": {"x":2371,"y":625,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00061":
+{
+	"frame": {"x":2371,"y":625,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00062":
+{
+	"frame": {"x":2371,"y":625,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00063":
+{
+	"frame": {"x":2371,"y":625,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00064":
+{
+	"frame": {"x":2371,"y":625,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00065":
+{
+	"frame": {"x":2371,"y":625,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00066":
+{
+	"frame": {"x":2371,"y":625,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00067":
+{
+	"frame": {"x":2371,"y":625,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00068":
+{
+	"frame": {"x":2371,"y":625,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00069":
+{
+	"frame": {"x":2371,"y":625,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00070":
+{
+	"frame": {"x":2371,"y":625,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00071":
+{
+	"frame": {"x":2371,"y":625,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00072":
+{
+	"frame": {"x":2371,"y":625,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00073":
+{
+	"frame": {"x":2371,"y":625,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00074":
+{
+	"frame": {"x":2371,"y":625,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+},
+"06_CARABINEROS_BIEN_00075":
+{
+	"frame": {"x":2371,"y":625,"w":781,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":193,"y":282,"w":781,"h":310},
+	"sourceSize": {"w":1920,"h":1080}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "CARABINEROS_BIEN.png",
+	"format": "RGBA8888",
+	"size": {"w":4070,"h":4385},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:cc2d69450f6f47c4e8f0100ba7602609:a77de53a12f63011ab14502334097b66:af26e3da1c81051c3876a34eb9218078$"
+}
+}

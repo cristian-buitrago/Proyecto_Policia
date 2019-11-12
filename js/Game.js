@@ -187,10 +187,10 @@ class Game extends Phaser.Scene{
 
         this.createAnimation();
 
-        this.animaEsmadLoop = this.add.sprite(2090,2440,'esmad_loop','1_ESMAD_LOOP_00001').play('loop_esmad');
+        this.animaEsmadLoop = this.add.sprite(2180,2450,'esmad_loop','1_ESMAD_LOOP_00001').play('loop_esmad');
         this.map.add(this.animaEsmadLoop);
 
-        this.animaEsmadBien = this.add.sprite(2090,2440,'esmad_bien','1_ESMAD_BIEN_00001').play('esmad_bien');
+        this.animaEsmadBien = this.add.sprite(2180,2450,'esmad_bien','1_ESMAD_BIEN_00001').play('esmad_bien');
         this.map.add(this.animaEsmadBien);
 
         this.animaAntiexpLoop = this.add.sprite(2150,1450,'antiexpl_loop','2_ANTIEXPL_LOOP_00001').play('antiexpl_loop');
@@ -214,10 +214,13 @@ class Game extends Phaser.Scene{
         this.animaCopesBueno = this.add.sprite(3775,2200,'copes_bueno','01_COPES_BUENO_00001').play('copes_bueno');
         this.map.add(this.animaCopesBueno);
 
-        this.animaCarabinerosLoop = this.add.sprite(3775,2200,'carabineros_loop','06_CARABINEROS_LOOP_00001').play('carabineros_loop');
+        this.animaCopesMalo = this.add.sprite(3775,2200,'copes_malo','01_COPES_MALO_00001').play('copes_malo');
+        this.map.add(this.animaCopesMalo);
+
+        this.animaCarabinerosLoop = this.add.sprite(1530,2770,'carabineros_loop','06_CARABINEROS_LOOP_00001').play('carabineros_loop');
         this.map.add(this.animaCarabinerosLoop);
 
-        this.animaCarabinerosMal = this.add.sprite(1570,2780,'carabineros_mal','06_CARABINEROS_MAL_00001').play('carabineros_mal');
+        this.animaCarabinerosMal = this.add.sprite(1630,2815,'carabineros_mal','06_CARABINEROS_MAL_00001').play('carabineros_mal');
         this.map.add(this.animaCarabinerosMal);
         
         //this.animaTransitoLoop = this.add.sprite(3475,3300,'transito_loop','07_TRANSITO_LOOP_00001').play('transito_loop');
@@ -238,17 +241,27 @@ class Game extends Phaser.Scene{
         this.animaPonalsarBueno = this.add.sprite(980,2000,'ponalsar_bueno','05_PONALSAR_BUENO_00001').play('ponalsar_bueno');
         this.map.add(this.animaPonalsarBueno);
 
+        /*this.animaPonalsarLoop = this.add.sprite(980,2000,'ponalsar_loop','05_PONALSAR_LOOP_00001').play('ponalsar_loop');
+        this.map.add(this.animaPonalsarLoop);
+
+        this.animaPonalsarMalo = this.add.sprite(980,2000,'ponalsar_malo','05_PONALSAR_MALO_00001').play('ponalsar_malo');
+        this.map.add(this.animaPonalsarMalo);*/
+
+
+
+
         this.animaEsmadBien.visible = false;
         this.animaAntiexpBien.visible = false;
         this.animaGaulaBien.visible = false;
         this.animaGaulaMal.visible = false;
         this.animaCopesBueno.visible = false;
+        this.animaCopesMalo.visible = false;
         this.animaCarabinerosLoop.visible = false;
         //this.animaTransitoBien.visible = false;
         //this.animaTransitoMal.visible = false;
         this.animaPerritoBueno.visible = false;
         this.animaPonalsarBueno.visible = false;
- 
+        //this.animaPonalsarMalo.visible = false;
 
         this.map.add(this.flag1);
         this.map.add(this.flag2);
@@ -807,6 +820,12 @@ class Game extends Phaser.Scene{
             repeat: -1,
             frameRate:12
         });
+        this.anims.create({
+            key: 'copes_malo',
+            frames: this.anims.generateFrameNames('copes_malo',{prefix: '01_COPES_MALO_',start : 1, end: 108, zeroPad: 5 }), 
+            repeat: -1,
+            frameRate:12
+        });
             this.anims.create({
             key: 'carabineros_loop',
             frames: this.anims.generateFrameNames('carabineros_loop',{prefix: '06_CARABINEROS_LOOP_',start : 1, end: 75, zeroPad: 5 }), 
@@ -855,7 +874,19 @@ class Game extends Phaser.Scene{
             repeat: -1,
             frameRate:12
         });
-        
+        /*this.anims.create({
+            key: 'ponalsar_loop',
+            frames: this.anims.generateFrameNames('ponalsar_loop',{prefix: '05_PONALSAR_LOOP_',start : 1, end: 75, zeroPad: 5 }), 
+            repeat: -1,
+            frameRate:12
+        });
+        this.anims.create({
+            key: 'ponalsar_malo',
+            frames: this.anims.generateFrameNames('ponalsar_malo',{prefix: '05_PONALSAR_MALO_',start : 1, end: 75, zeroPad: 5 }), 
+            repeat: -1,
+            frameRate:12
+        });*/
+
     }
 
     orderPreguntas(){
