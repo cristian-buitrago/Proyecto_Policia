@@ -101,25 +101,25 @@ class Game extends Phaser.Scene{
         this.prop20 = this.add.image(2754,2607,'prop20').setOrigin(0,0);
         this.prop21 = this.add.image(1759,2034,'prop9').setOrigin(0,0);*/
 
-        this.flag1 = this.add.image(4713,1192,'canino').setOrigin(0,0);
+        this.flag1 = this.add.image(4753,1152,'canino').setOrigin(0,0);
         this.flag1.setInteractive();
         this.flag1.on('pointerup', () => { this. showPregunta(0); })
         this.flag2 = this.add.image(3156,2667,'agente').setOrigin(0,0);
         this.flag2.setInteractive();
         this.flag2.on('pointerup', () => { this. showPregunta(1); })
-        this.flag3 = this.add.image(997,2787,'carabineros').setOrigin(0,0);
+        this.flag3 = this.add.image(700,2287,'carabineros').setOrigin(0,0);
         this.flag3.setInteractive();
         this.flag3.on('pointerup', () => { this. showPregunta(2); })
         this.flag4 = this.add.image(1994,1168,'explosivo').setOrigin(0,0);
         this.flag4.setInteractive();
         this.flag4.on('pointerup', () => { this. showPregunta(3); })
-        this.flag5 = this.add.image(1971,2170,'esmad').setOrigin(0,0);
+        this.flag5 = this.add.image(2000,2170,'esmad').setOrigin(0,0);
         this.flag5.setInteractive();
         this.flag5.on('pointerup', () => { this. showPregunta(4); })
-        this.flag6 = this.add.image(4452,2391,'gaula').setOrigin(0,0);
+        this.flag6 = this.add.image(4000,2000,'gaula').setOrigin(0,0);
         this.flag6.setInteractive();
         this.flag6.on('pointerup', () => { this. showPregunta(5); })
-        this.flag7 = this.add.image(2522,3829,'polfa').setOrigin(0,0);
+        this.flag7 = this.add.image(5500,1950,'polfa').setOrigin(0,0);
         this.flag7.setInteractive();
         this.flag7.on('pointerup', () => { this. showPregunta(6); })
         this.flag8 = this.add.image(898,1835,'ponalsar').setOrigin(0,0);
@@ -128,7 +128,7 @@ class Game extends Phaser.Scene{
         this.flag9 = this.add.image(2599,3296,'transito').setOrigin(0,0);
         this.flag9.setInteractive();
         this.flag9.on('pointerup', () => { this. showPregunta(8); })
-        this.flag10 = this.add.image(3640,1766,'copes').setOrigin(0,0);
+        this.flag10 = this.add.image(3610,1766,'copes').setOrigin(0,0);
         this.flag10.setInteractive();
         this.flag10.on('pointerup', () => { this. showPregunta(9); })
         this.flagArray = [this.flag1,this.flag2,this.flag3,this.flag4,this.flag5,this.flag6,this.flag7,this.flag8,this.flag9,this.flag10];
@@ -198,6 +198,9 @@ class Game extends Phaser.Scene{
 
         this.animaAntiexpBien = this.add.sprite(2150,1450,'antiexpl_bien','2_ANTIEXPL_BIEN_00001').play('antiexpl_bien');
         this.map.add(this.animaAntiexpBien);
+
+        this.animaAntiexpMal = this.add.sprite(2150,1450,'antiexpl_mal','2_ANTIEXPL_MAL_00001').play('antiexpl_mal');
+        this.map.add(this.animaAntiexpMal);
         
         this.animaGaulaLoop = this.add.sprite(4190,2477,'gaula_loop','3_Gaula_LOOP_00001').play('gaula_loop');
         this.map.add(this.animaGaulaLoop);
@@ -217,11 +220,14 @@ class Game extends Phaser.Scene{
         this.animaCopesMalo = this.add.sprite(3775,2200,'copes_malo','01_COPES_MALO_00001').play('copes_malo');
         this.map.add(this.animaCopesMalo);
 
-        this.animaCarabinerosLoop = this.add.sprite(1530,2770,'carabineros_loop','06_CARABINEROS_LOOP_00001').play('carabineros_loop');
+        this.animaCarabinerosLoop = this.add.sprite(1525,2780,'carabineros_loop','06_CARABINEROS_LOOP_00001').play('carabineros_loop');
         this.map.add(this.animaCarabinerosLoop);
 
         this.animaCarabinerosMal = this.add.sprite(1630,2815,'carabineros_mal','06_CARABINEROS_MAL_00001').play('carabineros_mal');
         this.map.add(this.animaCarabinerosMal);
+
+        this.animaCarabinerosBien = this.add.sprite(1630,2815,'carabineros_bien','06_CARABINEROS_BIEN_00001').play('carabineros_bien');
+        this.map.add(this.animaCarabinerosBien);
         
         //this.animaTransitoLoop = this.add.sprite(3475,3300,'transito_loop','07_TRANSITO_LOOP_00001').play('transito_loop');
         //this.map.add(this.animaTransitoLoop);
@@ -232,11 +238,17 @@ class Game extends Phaser.Scene{
         //this.animaTransitoMal = this.add.sprite(3475,3300,'transito_mal','07_TRANSITO_MAL_00001').play('transito_mal');
         //this.map.add(this.animaTransitoMal);
 
+        this.animaPolfaBueno = this.add.sprite(6200,2000,'polfa_bueno','08_POLFA_Bueno_00001').play('polfa_bueno');
+        this.map.add(this.animaPolfaBueno);
+
         this.animaPerritoLoop = this.add.sprite(5040,1400,'guia_loop','09_GUIA_PERRITO_LOOP_00001').play('guia_loop');
         this.map.add(this.animaPerritoLoop);
 
         this.animaPerritoBueno = this.add.sprite(5040,1400,'guia_bueno','09_GUIA_PERRITO_BUENO_00001').play('guia_bueno');
         this.map.add(this.animaPerritoBueno);
+
+        this.animaPerritoMalo = this.add.sprite(5040,1400,'guia_malo','09_GUIA_PERRITO_MALO_00001').play('guia_malo');
+        this.map.add(this.animaPerritoMalo);
 
         this.animaPonalsarBueno = this.add.sprite(980,2000,'ponalsar_bueno','05_PONALSAR_BUENO_00001').play('ponalsar_bueno');
         this.map.add(this.animaPonalsarBueno);
@@ -252,16 +264,88 @@ class Game extends Phaser.Scene{
 
         this.animaEsmadBien.visible = false;
         this.animaAntiexpBien.visible = false;
+        this.animaAntiexpMal.visible = false;
         this.animaGaulaBien.visible = false;
         this.animaGaulaMal.visible = false;
         this.animaCopesBueno.visible = false;
         this.animaCopesMalo.visible = false;
-        this.animaCarabinerosLoop.visible = false;
+        this.animaCarabinerosMal.visible = false;
+        this.animaCarabinerosBien.visible = false;
         //this.animaTransitoBien.visible = false;
         //this.animaTransitoMal.visible = false;
         this.animaPerritoBueno.visible = false;
+        this.animaPerritoMalo.visible = false;
         this.animaPonalsarBueno.visible = false;
         //this.animaPonalsarMalo.visible = false;
+
+        this.personaje1 = this.add.image(1100,2200,'personaje1');
+        this.personaje2 = this.add.image(3100,3700,'personaje2');
+        this.personaje3 = this.add.image(380,2500,'personaje3');
+        this.personaje4 = this.add.image(2600,2350,'personaje4');
+        this.personaje5 = this.add.image(4000,3000,'personaje5');
+        this.personaje6 = this.add.image(3080,3000,'personaje6');
+        this.personaje7 = this.add.image(4200,2600,'personaje7');
+        this.personaje8 = this.add.image(4130,1950,'personaje8');
+        this.personaje9 = this.add.image(3000,2200,'personaje9');
+        this.personaje10 = this.add.image(2370,2610,'personaje10');
+        this.personaje11 = this.add.image(2800,3500,'personaje11');
+        this.personaje12 = this.add.image(300,2500,'personaje12');
+        this.personaje13 = this.add.image(900,2100,'personaje13');
+        this.personaje14 = this.add.image(4900,2300,'personaje14');
+        this.personaje15 = this.add.image(3250,3140,'personaje15');
+        this.personaje16 = this.add.image(3500,1450,'personaje16');
+        this.personaje17 = this.add.image(1500,1190,'personaje17');
+        this.personaje18 = this.add.image(3280,3150,'personaje18');
+        this.personaje19 = this.add.image(2400,2580,'personaje19');
+        this.personaje20 = this.add.image(1500,3300,'personaje20');
+        this.personaje21 = this.add.image(2950,1800,'personaje21');
+        this.personaje22 = this.add.image(2950,2700,'personaje22');
+        this.personaje23 = this.add.image(3500,2200,'personaje23');
+        this.personaje24 = this.add.image(5500,2200,'personaje24');
+        this.personaje25 = this.add.image(2450,1500,'personaje25');
+        this.personaje26 = this.add.image(1550,3330,'personaje26');
+        this.personaje27 = this.add.image(2270,2380,'personaje27');
+        this.personaje28 = this.add.image(2400,2450,'personaje28');
+        this.personaje29 = this.add.image(1450,3290,'personaje29');
+        this.personaje30 = this.add.image(2950,1800,'personaje30');
+        this.personaje31 = this.add.image(2950,1800,'personaje31');
+        this.personaje32 = this.add.image(2950,1800,'personaje32');
+        this.personaje33 = this.add.image(2950,1800,'personaje33');
+
+
+        this.map.add(this.personaje1);
+        this.map.add(this.personaje2);
+        this.map.add(this.personaje3);
+        this.map.add(this.personaje4);
+        this.map.add(this.personaje5);
+        this.map.add(this.personaje6);
+        this.map.add(this.personaje7);
+        this.map.add(this.personaje8);
+        this.map.add(this.personaje9);
+        this.map.add(this.personaje11);
+        this.map.add(this.personaje12);
+        this.map.add(this.personaje13);
+        this.map.add(this.personaje14);
+        this.map.add(this.personaje15);
+        this.map.add(this.personaje16);
+        this.map.add(this.personaje17);
+        this.map.add(this.personaje18);
+        this.map.add(this.personaje19);
+        this.map.add(this.personaje20);
+        this.map.add(this.personaje21);
+        this.map.add(this.personaje10);
+        this.map.add(this.personaje22);
+        this.map.add(this.personaje23);
+        this.map.add(this.personaje24);
+        this.map.add(this.personaje25);
+        this.map.add(this.personaje26);
+        this.map.add(this.personaje27);
+        this.map.add(this.personaje28);
+        this.map.add(this.personaje29);
+        this.map.add(this.personaje30);
+        this.map.add(this.personaje31);
+        this.map.add(this.personaje32);
+        this.map.add(this.personaje33);
 
         this.map.add(this.flag1);
         this.map.add(this.flag2);
@@ -791,6 +875,12 @@ class Game extends Phaser.Scene{
             frameRate:12
         });
         this.anims.create({
+            key: 'antiexpl_mal',
+            frames: this.anims.generateFrameNames('antiexpl_mal',{prefix: '2_ANTIEXPL_MAL_',start: 1, end: 98, zeroPad: 5 }), 
+            repeat: -1,
+            frameRate:12
+        });
+        this.anims.create({
             key: 'gaula_loop',
             frames: this.anims.generateFrameNames('gaula_loop',{prefix: '3_Gaula_LOOP_',start : 1, end: 75, zeroPad: 5 }), 
             repeat: -1,
@@ -839,6 +929,12 @@ class Game extends Phaser.Scene{
             frameRate:11
         });
         this.anims.create({
+            key: 'carabineros_bien',
+            frames: this.anims.generateFrameNames('carabineros_bien',{prefix: '06_CARABINEROS_BIEN_',start : 1, end: 75, zeroPad: 5 }), 
+            repeat: -1,
+            frameRate:11
+        });
+        this.anims.create({
             key: 'transito_loop',
             frames: this.anims.generateFrameNames('transito_loop',{prefix: '07_TRANSITO_LOOP_',start : 1, end: 151, zeroPad: 5 }), 
             repeat: -1,
@@ -857,6 +953,18 @@ class Game extends Phaser.Scene{
             frameRate:12
         });
         this.anims.create({
+            key: 'polfa_bueno',
+            frames: this.anims.generateFrameNames('polfa_bueno',{prefix: '08_POLFA_Bueno_',start : 1, end: 75, zeroPad: 5 }), 
+            repeat: -1,
+            frameRate:12
+        });
+        this.anims.create({
+            key: 'polfa_loop',
+            frames: this.anims.generateFrameNames('polfa_loop',{prefix: '08_POLFA_Loop_00001',start : 1, end: 75, zeroPad: 5 }), 
+            repeat: -1,
+            frameRate:12
+        });
+        this.anims.create({
             key: 'guia_loop',
             frames: this.anims.generateFrameNames('guia_loop',{prefix: '09_GUIA_PERRITO_LOOP_',start : 1, end: 87, zeroPad: 5 }), 
             repeat: -1,
@@ -869,12 +977,18 @@ class Game extends Phaser.Scene{
             frameRate:12
         });
         this.anims.create({
+            key: 'guia_malo',
+            frames: this.anims.generateFrameNames('guia_malo',{prefix: '09_GUIA_PERRITO_MALO_',start : 1, end: 139, zeroPad: 5 }), 
+            repeat: -1,
+            frameRate:12
+        });
+        this.anims.create({
             key: 'ponalsar_bueno',
             frames: this.anims.generateFrameNames('ponalsar_bueno',{prefix: '05_PONALSAR_BUENO_',start : 1, end: 75, zeroPad: 5 }), 
             repeat: -1,
             frameRate:12
         });
-        /*this.anims.create({
+        this.anims.create({
             key: 'ponalsar_loop',
             frames: this.anims.generateFrameNames('ponalsar_loop',{prefix: '05_PONALSAR_LOOP_',start : 1, end: 75, zeroPad: 5 }), 
             repeat: -1,
@@ -885,7 +999,7 @@ class Game extends Phaser.Scene{
             frames: this.anims.generateFrameNames('ponalsar_malo',{prefix: '05_PONALSAR_MALO_',start : 1, end: 75, zeroPad: 5 }), 
             repeat: -1,
             frameRate:12
-        });*/
+        });
 
     }
 
@@ -916,7 +1030,7 @@ class Game extends Phaser.Scene{
             info: 'i_copes',
             boton: 'b_copes',
             animacionBien: this.animaCopesBueno,
-            animacionMal:  this.animaCopesBueno,
+            animacionMal:  this.animaCopesMalo,
             aniamcionloop:  this.animaCopesLoop,
         }
         this.transito  = {
@@ -1090,7 +1204,7 @@ class Game extends Phaser.Scene{
             info: 'i_explosivo',
             boton: 'b_explosivo',
             animacionBien: this.animaAntiexpBien,
-            animacionMal:  this.animaAntiexpBien,
+            animacionMal:  this.animaAntiexpMal,
             aniamcionloop:  this.animaAntiexpLoop,
         }
         this.carabineros  = {
@@ -1118,7 +1232,7 @@ class Game extends Phaser.Scene{
             },
             info: 'i_carabineros',
             boton: 'b_carabineros',
-            animacionBien: this.animaCarabinerosMal,
+            animacionBien: this.animaCarabinerosBien,
             animacionMal:  this.animaCarabinerosMal,
             aniamcionloop:  this.animaCarabinerosLoop,
         }
@@ -1177,7 +1291,7 @@ class Game extends Phaser.Scene{
             info: 'i_canino',
             boton: 'b_canino',
             animacionBien: this.animaPerritoBueno,
-            animacionMal:  this.animaPerritoBueno,
+            animacionMal:  this.animaPerritoMalo,
             aniamcionloop:  this.animaPerritoLoop,
         }
 
