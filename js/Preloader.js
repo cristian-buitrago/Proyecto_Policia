@@ -228,7 +228,7 @@ class PreLoader extends Phaser.Scene{
         this.load.atlas('copes_bueno','img/Animaciones/4_COPES/4_COPES_BUENO/COPES_BUENO.png','img/Animaciones/4_COPES/4_COPES_BUENO/COPES_BUENO.json');
         this.load.atlas('copes_loop','img/Animaciones/4_COPES/4_COPES_LOOP/COPES_LOOP.png','img/Animaciones/4_COPES/4_COPES_LOOP/COPES_LOOP.json');
         this.load.atlas('copes_malo','img/Animaciones/4_COPES/4_COPES_MALO/COPES_MALO.png','img/Animaciones/4_COPES/4_COPES_MALO/COPES_MALO.json');
-        
+  
         this.load.atlas('ponalsar_bueno','img/Animaciones/5_PONALSAR/05_PONALSAR_BUENO/PONALSAR_BUENO.png','img/Animaciones/5_PONALSAR/05_PONALSAR_BUENO/PONALSAR_BUENO.json');
         this.load.atlas('ponalsar_loop','img/Animaciones/5_PONALSAR/05_PONALSAR_LOOP/PONALSAR_LOOP.png','img/Animaciones/5_PONALSAR/05_PONALSAR_LOOP/PONALSAR_LOOP.json');
         this.load.atlas('ponalsar_malo','img/Animaciones/5_PONALSAR/05_PONALSAR_MALO/PONALSAR_MALO.png','img/Animaciones/5_PONALSAR/05_PONALSAR_MALO/PONALSAR_MALO.json');
@@ -237,13 +237,13 @@ class PreLoader extends Phaser.Scene{
         this.load.atlas('carabineros_loop','img/Animaciones/6_CARABINEROS/6_CARABINEROS_LOOP/CARABINEROS_LOOP.png','img/Animaciones/6_CARABINEROS/6_CARABINEROS_LOOP/CARABINEROS_LOOP.json');
         this.load.atlas('carabineros_mal','img/Animaciones/6_CARABINEROS/6_CARABINEROS_MAL/CARABINEROS_MAL.png','img/Animaciones/6_CARABINEROS/6_CARABINEROS_MAL/CARABINEROS_MAL.json');
         
-        this.load.atlas('transito_bien','img/Animaciones/7_TRANSITO/7_TRANSITO_BIEN/TRANSITO_BIEN.png','img/Animaciones/7_TRANSITO/7_TRANSITO_BIEN/TRANSITO_BIEN.json');
-        this.load.atlas('transito_loop','img/Animaciones/7_TRANSITO/7_TRANSITO_LOOP/TRANSITO_LOOP.png','img/Animaciones/7_TRANSITO/7_TRANSITO_LOOP/TRANSITO_LOOP.json');
-        this.load.atlas('transito_mal','img/Animaciones/7_TRANSITO/7_TRANSITO_MAL/TRANSITO_MAL.png','img/Animaciones/7_TRANSITO/7_TRANSITO_MAL/TRANSITO_MAL.json');
+        this.load.atlas('transito_bien','img/Animaciones/7_TRANSITO/7_TRANSITO_BIEN/7_TRANSITO_BIEN.png','img/Animaciones/7_TRANSITO/7_TRANSITO_BIEN/7_TRANSITO_BIEN.json');
+        this.load.atlas('transito_loop','img/Animaciones/7_TRANSITO/7_TRANSITO_LOOP/7_TRANSITO_LOOP.png','img/Animaciones/7_TRANSITO/7_TRANSITO_LOOP/7_TRANSITO_LOOP.json');
+        this.load.atlas('transito_mal','img/Animaciones/7_TRANSITO/7_TRANSITO_MAL/7_TRANSITO_MAL.png','img/Animaciones/7_TRANSITO/7_TRANSITO_MAL/7_TRANSITO_MAL.json');
         
         this.load.atlas('polfa_bueno','img/Animaciones/8_POLFA/8_POLFA_BUENO/POLFA_BUENO.png','img/Animaciones/8_POLFA/8_POLFA_BUENO/POLFA_BUENO.json');
         this.load.atlas('polfa_loop','img/Animaciones/8_POLFA/8_POLFA_LOOP/POLFA_LOOP.png','img/Animaciones/8_POLFA/8_POLFA_LOOP/POLFA_LOOP.json');
-        this.load.atlas('polfa_malo','img/Animaciones/8_POLFA/8_POLFA_MALO/POLFA_MALO.png','img/Animaciones/8_POLFA/8_POLFA_MALO/POLFA_MALO.json');
+        this.load.atlas('polfa_malo','img/Animaciones/8_POLFA/8_POLFA_MALO/POLFA_MAL.png','img/Animaciones/8_POLFA/8_POLFA_MALO/POLFA_MAL.json');
         
         this.load.atlas('guia_bueno','img/Animaciones/9_GUIA_CANINO/09_GUIA_PERRITO_BUENO/GUIA_PERRITO_BUENO.png','img/Animaciones/9_GUIA_CANINO/09_GUIA_PERRITO_BUENO/GUIA_PERRITO_BUENO.json');
         this.load.atlas('guia_loop','img/Animaciones/9_GUIA_CANINO/09_GUIA_PERRITO_LOOP/GUIA_PERRITO_LOOP.png','img/Animaciones/9_GUIA_CANINO/09_GUIA_PERRITO_LOOP/GUIA_PERRITO_LOOP.json');
@@ -254,6 +254,14 @@ class PreLoader extends Phaser.Scene{
         
         this.load.svg('barra','img/hud/barra.svg',{width: 1950,height:130});
 
+        this.load.audio('fondo', 'img/audio/fondo/ciudad.ogg','img/audio/fondo/ciudad.mp3');
+        this.load.audio('aeropuerto', 'img/audio/aeropuerto.ogg','img/audio/aeropuerto.mp3');
+        this.load.audio('alarma', 'img/audio/alarma1.ogg','img/audio/alarma1.mp3');
+        this.load.audio('alerta', 'img/audio/alarma2.ogg','img/audio/alarma2.mp3');
+        this.load.audio('protesta', 'img/audio/protesta.ogg','img/audio/protesta.mp3');
+        this.load.audio('mal', 'img/audio/mal.ogg','img/audio/mal.mp3');
+        this.load.audio('bien', 'img/audio/bien.ogg','img/audio/bien.mp3');
+        this.load.audio('SoundVolver', 'img/audio/volver.ogg','img/audio/volver.mp3');
 
     }
 
