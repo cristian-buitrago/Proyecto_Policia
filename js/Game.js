@@ -103,43 +103,43 @@ class Game extends Phaser.Scene{
 
         this.flag1 = this.add.image(4753,1152,'canino').setOrigin(0,0);
         this.flag1.setInteractive();
-        this.flag1.on('pointerover', () => {this.alarma1.play()});
+        this.flag1.on('pointerup', () => {this.alarma1.play()});
         this.flag1.on('pointerup', () => { this. showPregunta(0); })
         this.flag2 = this.add.image(3156,2667,'agente').setOrigin(0,0);
         this.flag2.setInteractive();
-        this.flag2.on('pointerover', () => {this.alarma1.play()});
+        this.flag2.on('pointerup', () => {this.alarma1.play()});
         this.flag2.on('pointerup', () => { this. showPregunta(1); })
         this.flag3 = this.add.image(700,2287,'carabineros').setOrigin(0,0);
         this.flag3.setInteractive();
-        this.flag3.on('pointerover', () => {this.alarma1.play()});
+        this.flag3.on('pointerup', () => {this.alarma1.play()});
         this.flag3.on('pointerup', () => { this. showPregunta(2); })
         this.flag4 = this.add.image(1994,1168,'explosivo').setOrigin(0,0);
         this.flag4.setInteractive();
-        this.flag4.on('pointerover', () => {this.alarma1.play()});
+        this.flag4.on('pointerup', () => {this.alarma1.play()});
         this.flag4.on('pointerup', () => { this. showPregunta(3); })
         this.flag5 = this.add.image(2000,2170,'esmad').setOrigin(0,0);
         this.flag5.setInteractive();
-        this.flag5.on('pointerover', () => {this.alarma1.play()});
+        this.flag5.on('pointerup', () => {this.alarma1.play()});
         this.flag5.on('pointerup', () => { this. showPregunta(4); })
         this.flag6 = this.add.image(4000,2000,'gaula').setOrigin(0,0);
         this.flag6.setInteractive();
-        this.flag6.on('pointerover', () => {this.alarma1.play()});
+        this.flag6.on('pointerup', () => {this.alarma1.play()});
         this.flag6.on('pointerup', () => { this. showPregunta(5); })
         this.flag7 = this.add.image(5500,1950,'polfa').setOrigin(0,0);
         this.flag7.setInteractive();
-        this.flag7.on('pointerover', () => {this.alarma1.play()});
+        this.flag7.on('pointerup', () => {this.alarma1.play()});
         this.flag7.on('pointerup', () => { this. showPregunta(6); })
         this.flag8 = this.add.image(898,1835,'ponalsar').setOrigin(0,0);
         this.flag8.setInteractive();
-        this.flag8.on('pointerover', () => {this.alarma1.play()});
+        this.flag8.on('pointerup', () => {this.alarma1.play()});
         this.flag8.on('pointerup', () => { this. showPregunta(7); })
         this.flag9 = this.add.image(2599,3296,'transito').setOrigin(0,0);
         this.flag9.setInteractive();
-        this.flag9.on('pointerover', () => {this.alarma1.play()});
+        this.flag9.on('pointerup', () => {this.alarma1.play()});
         this.flag9.on('pointerup', () => { this. showPregunta(8); })
         this.flag10 = this.add.image(3610,1766,'copes').setOrigin(0,0);
         this.flag10.setInteractive();
-        this.flag10.on('pointerover', () => {this.alarma1.play()});
+        this.flag10.on('pointerup', () => {this.alarma1.play()});
         this.flag10.on('pointerup', () => { this. showPregunta(9); })
         this.flagArray = [this.flag1,this.flag2,this.flag3,this.flag4,this.flag5,this.flag6,this.flag7,this.flag8,this.flag9,this.flag10];
         //this.seccionArray =[this.canino,this.agente,this.carabineros,this.explosivo,this.esmad,this.gaula,this.polfa,this.ponalsar,this.transito,this.copes];
@@ -199,9 +199,6 @@ class Game extends Phaser.Scene{
 
         this.animaEsmadLoop = this.add.sprite(2180,2450,'esmad_loop','1_ESMAD_LOOP_00001').play('loop_esmad');
         this.map.add(this.animaEsmadLoop);
-        this.animaEsmadLoop.setInteractive();
-        this.animaEsmadLoop.on('pointerover', () => {this.protesta.play()});
-    
 
         this.animaEsmadBien = this.add.sprite(2180,2450,'esmad_bien','1_ESMAD_BIEN_00001').play('esmad_bien');
         this.map.add(this.animaEsmadBien);
@@ -259,8 +256,6 @@ class Game extends Phaser.Scene{
 
         this.animaPerritoLoop = this.add.sprite(5040,1400,'guia_loop','09_GUIA_PERRITO_LOOP_00001').play('guia_loop');
         this.map.add(this.animaPerritoLoop);
-        this.animaPerritoLoop.setInteractive();
-        this.animaPerritoLoop.on('pointerover', () => {this.aeropuerto.play()});
 
         this.animaPerritoBueno = this.add.sprite(5040,1400,'guia_bueno','09_GUIA_PERRITO_BUENO_00001').play('guia_bueno');
         this.map.add(this.animaPerritoBueno);
@@ -409,15 +404,21 @@ class Game extends Phaser.Scene{
         var hudBar = this.add.image(-15,-10,'barra').setOrigin(0,0);
 
         this.btBack = this.add.image(0,0,'Recurso20').setOrigin(0,0);
+        this.btBack.setInteractive();
+        this.btBack.on('pointerup', () => {this.SoundVolver.play()});
 
         this.SonidoFondo = this.sound.add('fondo');
         this.SoundOn = this.add.image(-12,150,'Recurso15').setOrigin(0,0);
         this.SoundOn.setInteractive();
-        this.SoundOn.on('pointerdown', () => {this.SonidoFondo.play()});
+        this.SoundOn.on('pointerup', () => {this.SoundOff;})
+        this.SonidoFondo.play();
         this.SoundOff = this.add.image(-12,150,'Recurso12').setOrigin(0,0);
+        this.SoundOff.setInteractive();
+        this.SoundOff.on('pointerup', () => {this.SoundOn;})
         //this.help = this.add.image(-12,339,'Recurso11').setOrigin(0,0);
         this.pre = this.add.image(-12,920,'Recurso14').setOrigin(0,0);
         this.pre.setInteractive();
+        this.pre.on('pointerup', () => {this.SoundVolver.play()});
         this.pre.on('pointerup', () => { window.location.href = "https://sinco.policia.gov.co/sitiopreinscripcion/ZonaPublica/InicioPre.aspx"; })
 
         console.log(this.btBack.width);
@@ -442,6 +443,7 @@ class Game extends Phaser.Scene{
 
         this.buttonIni = this.add.image(1920/2,915,'Recurso16');
         this.buttonIni.setInteractive();
+        this.buttonIni.on('pointerup', () => {this.SoundVolver.play()});
         this.buttonIni.on('pointerup', () => { this.instruccionesFn(); })
 
 
@@ -461,6 +463,7 @@ class Game extends Phaser.Scene{
 
         this.buttonIns = this.add.image(1920-(863/2),965,'Recurso16');
         this.buttonIns.setInteractive();
+        this.buttonIns.on('pointerup', () => {this.SoundVolver.play()});
         this.buttonIns.on('pointerup', () => { this.GameFn(); })
 
         this.intrucciones.add(backGroundIns);
@@ -494,6 +497,7 @@ class Game extends Phaser.Scene{
         this.pregunta = this.add.image(1090,0,this.seccionArray[0].pregunta).setOrigin(0,0);
         this.btInfo = this.add.image(1189,944,this.seccionArray[0].boton).setOrigin(0,0);
         this.btInfo.setInteractive();
+        this.btInfo.on('pointerup', () => {this.SoundVolver.play()});
         this.btInfo.on('pointerup', () => { this.showInfo(); });
         this.btContinuar = this.add.image(1518,944,'continuar').setOrigin(0,0);
         this.btContinuar.setInteractive();
@@ -532,9 +536,11 @@ class Game extends Phaser.Scene{
         this.btVolverRes.on('pointerup', () => { this.hideRes(); });
         this.actuar = this.add.image(1543,968,'actuar').setOrigin(0,0);
         this.actuar.setInteractive();
+        this.actuar.on('pointerup', () => {this.SoundVolver.play()});
         this.actuar.on('pointerup', () => { this.finPregunta(); });
         this.corregir = this.add.image(1224,968,'corregir').setOrigin(0,0);
         this.corregir.setInteractive();
+        this.corregir.on('pointerup', () => {this.SoundVolver.play()});
         this.corregir.on('pointerup', () => { this.resetAnswer(); });
         this.n1 = this.add.image(1043,306,'n1').setOrigin(0,0);
         this.n2 = this.add.image(1043,433,'n2').setOrigin(0,0);
@@ -547,6 +553,7 @@ class Game extends Phaser.Scene{
         this.continuarFinal = this.add.image(1358,924,'continuar').setOrigin(0,0);
         this.refuerzos  = this.add.image(1358,764,'refuerzos').setOrigin(0,0);
         this.refuerzos.setInteractive();
+        this.refuerzos.on('pointerup', () => {this.SoundVolver.play()});
         this.refuerzos.on('pointerup', () => { this.showPregunta(this.currentIndex); });
         this.texto = this.add.text(1494, 687, '10/10', { fontFamily: 'Arial', fontSize: 40, color: '#000000' }).setOrigin(0,0);
         this.continuarFinal.setInteractive();
