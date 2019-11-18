@@ -245,8 +245,8 @@ class Game extends Phaser.Scene{
         //this.animaTransitoLoop = this.add.sprite(3475,3300,'transito_loop','07_TRANSITO_LOOP_00001').play('transito_loop');
         //this.map.add(this.animaTransitoLoop);
 
-        this.animaTransitoBien = this.add.sprite(3475,3300,'transito_bien','07_TRANSITO_BIEN_corte_00001').play('transito_bien');
-        this.map.add(this.animaTransitoBien);
+        //this.animaTransitoBien = this.add.sprite(3475,3300,'transito_bien','07_TRANSITO_BIEN_corte_00001').play('transito_bien');
+        //this.map.add(this.animaTransitoBien);
 
         //this.animaTransitoMal = this.add.sprite(3475,3300,'transito_mal','07_TRANSITO_MAL_00001').play('transito_mal');
         //this.map.add(this.animaTransitoMal);
