@@ -78,8 +78,8 @@ class PreLoader extends Phaser.Scene{
         this.widthArrayP = [367,110,150,324,472,171,184,126,86,157,78,132,438,362,361,112,126,308,0,302,158];
         this.heightarrayP = [373,226,140,220,289,98,104,82,69,151,57,116,414,268,268,90,128,194,0,232,141];
         
-        this.widthArrayH =  [236,129,139,75,309,70,296,102,94,122,309,309,429,429,309,410,806,187,895,394,864,509,484,484];
-        this.heightarrayH = [325,172,183,75,148,70,94,121,124,121,146,147,147,147,147,150,487,147,111,99,194,98,127,98];
+        this.widthArrayH =  [236,129,139,75,309,70,296,102,94,122,309,309,429,350,309,410,806,187,895,394,864,509,484,484,492];
+        this.heightarrayH = [325,172,183,75,148,70,94,121,124,121,146,147,147,135,147,150,487,147,111,99,194,98,127,98,106];
 
         this.widthArrayP =  [27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,37,27,27,27,27,27,27,40,40,27,27,27,27,27];
         this.heightarrayP = [50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,71,50,50,50,50,50,50,70,70,50,50,50,50,50];
@@ -95,7 +95,7 @@ class PreLoader extends Phaser.Scene{
             //img\Buldings
             this.load.svg('prop'+i,'img/props/prop'+(i)+'.svg',{width: this.widthArrayP[i], height: this.heightarrayP[i]});
         }*/
-        for(i = 0;i<24;i++){
+        for(i = 0;i<25;i++){
             //img\Buldings
             this.load.svg('Recurso'+(i+1),'img/hud/Recurso'+(i+1)+'.svg',{width: this.widthArrayH[i], height: this.heightarrayH[i]});
         }
@@ -238,7 +238,7 @@ class PreLoader extends Phaser.Scene{
         this.load.atlas('carabineros_mal','img/Animaciones/6_CARABINEROS/6_CARABINEROS_MAL/CARABINEROS_MAL.png','img/Animaciones/6_CARABINEROS/6_CARABINEROS_MAL/CARABINEROS_MAL.json');
         
         this.load.atlas('transito_bien','img/Animaciones/7_TRANSITO/7_TRANSITO_BIEN/7_TRANSITO_BIEN.png','img/Animaciones/7_TRANSITO/7_TRANSITO_BIEN/7_TRANSITO_BIEN.json');
-        this.load.atlas('transito_loop','img/Animaciones/7_TRANSITO/7_TRANSITO_LOOP/7_TRANSITO_LOOP.png','img/Animaciones/7_TRANSITO/7_TRANSITO_LOOP/7_TRANSITO_LOOP.json');
+        this.load.atlas('transito_loop','img/Animaciones/7_TRANSITO/7_TRANSITO_LOOP/TRANSITO_LOOP.png','img/Animaciones/7_TRANSITO/7_TRANSITO_LOOP/TRANSITO_LOOP.json');
         this.load.atlas('transito_mal','img/Animaciones/7_TRANSITO/7_TRANSITO_MAL/7_TRANSITO_MAL.png','img/Animaciones/7_TRANSITO/7_TRANSITO_MAL/7_TRANSITO_MAL.json');
         
         this.load.atlas('polfa_bueno','img/Animaciones/8_POLFA/8_POLFA_BUENO/POLFA_BUENO.png','img/Animaciones/8_POLFA/8_POLFA_BUENO/POLFA_BUENO.json');
@@ -262,6 +262,10 @@ class PreLoader extends Phaser.Scene{
         this.load.audio('mal', 'img/audio/mal.ogg','img/audio/mal.mp3');
         this.load.audio('bien', 'img/audio/bien.ogg','img/audio/bien.mp3');
         this.load.audio('SoundVolver', 'img/audio/volver.ogg','img/audio/volver.mp3');
+
+        //this.load.svg('puntero'+(i+1),'img/hud/mouse.svg'
+        //esta es la imagen paea agregar al mouse
+
 
     }
 
