@@ -266,11 +266,11 @@ class Game extends Phaser.Scene{
         this.animaPonalsarBueno = this.add.sprite(980,2000,'ponalsar_bueno','05_PONALSAR_BUENO_00001').play('ponalsar_bueno');
         this.map.add(this.animaPonalsarBueno);
 
-        this.animaPonalsarLoop = this.add.sprite(980,2000,'ponalsar_loop','05_PONALSAR_LOOP_00001');//.play('ponalsar_loop');
-        this.map.add(this.animaPonalsarLoop);
+        //this.animaPonalsarLoop = this.add.sprite(980,2000,'ponalsar_loop','05_PONALSAR_LOOP_00001');//.play('ponalsar_loop');
+        //this.map.add(this.animaPonalsarLoop);
 
-        this.animaPonalsarMalo = this.add.sprite(980,2000,'ponalsar_malo','05_PONALSAR_MALO_00001');//.play('ponalsar_malo');
-        this.map.add(this.animaPonalsarMalo);
+        //this.animaPonalsarMalo = this.add.sprite(980,2000,'ponalsar_malo','05_PONALSAR_MALO_00001');//.play('ponalsar_malo');
+        //this.map.add(this.animaPonalsarMalo);
 
 
 
@@ -289,7 +289,7 @@ class Game extends Phaser.Scene{
         this.animaPerritoBueno.visible = false;
         this.animaPerritoMalo.visible = false;
         this.animaPonalsarBueno.visible = false;
-        this.animaPonalsarMalo.visible = false;
+        //this.animaPonalsarMalo.visible = false;
 
         this.personaje1 = this.add.image(1100,2200,'personaje1');
         this.personaje2 = this.add.image(3100,3700,'personaje2');
