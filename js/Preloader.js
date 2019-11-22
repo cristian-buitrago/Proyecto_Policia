@@ -254,16 +254,16 @@ class PreLoader extends Phaser.Scene{
         
         this.load.svg('barra','img/hud/barra.svg',{width: 1950,height:130});
 
-        this.load.audio('fondo', 'img/audio/fondo/ciudad.ogg','img/audio/fondo/ciudad.mp3');
-        this.load.audio('aeropuerto', 'img/audio/aeropuerto.ogg','img/audio/aeropuerto.mp3');
-        this.load.audio('alarma', 'img/audio/alarma1.ogg','img/audio/alarma1.mp3');
-        this.load.audio('alerta', 'img/audio/alarma2.ogg','img/audio/alarma2.mp3');
-        this.load.audio('protesta', 'img/audio/protesta.ogg','img/audio/protesta.mp3');
-        this.load.audio('mal', 'img/audio/mal.ogg','img/audio/mal.mp3');
-        this.load.audio('bien', 'img/audio/bien.ogg','img/audio/bien.mp3');
-        this.load.audio('SoundVolver', 'img/audio/volver.ogg','img/audio/volver.mp3');
+        this.load.audio('fondo', ['img/audio/fondo/ciudad.ogg','img/audio/fondo/ciudad.mp3']);
+        this.load.audio('aeropuerto', ['img/audio/aeropuerto.ogg','img/audio/aeropuerto.mp3']);
+        this.load.audio('alarma', ['img/audio/alarma1.ogg','img/audio/alarma1.mp3']);
+        this.load.audio('alerta', ['img/audio/alarma2.ogg','img/audio/alarma2.mp3']);
+        this.load.audio('protesta', ['img/audio/protesta.ogg','img/audio/protesta.mp3']);
+        this.load.audio('mal', ['img/audio/mal.ogg','img/audio/mal.mp3']);
+        this.load.audio('bien', ['img/audio/bien.ogg','img/audio/bien.mp3']);
+        this.load.audio('SoundVolver', ['img/audio/volver.ogg','img/audio/volver.mp3']);
 
-        //this.load.svg('puntero'+(i+1),'img/hud/mouse.svg'
+        //this.load.svg('puntero','img/hud/mouse.svg');
         //esta es la imagen paea agregar al mouse
 
 
