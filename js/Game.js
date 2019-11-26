@@ -243,13 +243,13 @@ class Game extends Phaser.Scene{
         this.animaCarabinerosBien = this.add.sprite(1630,2815,'carabineros_bien','06_CARABINEROS_BIEN_00001').play('carabineros_bien');
         this.map.add(this.animaCarabinerosBien);
         
-        this.animaTransitoLoop = this.add.sprite(3040,3305,'transito_loop','07_TRANSITO_LOOP_00001.png').play('transito_loop_frame');
+        this.animaTransitoLoop = this.add.sprite(3040,3300,'transito_loop','07_TRANSITO_LOOP_00001.png').play('transito_loop_frame');
         this.map.add(this.animaTransitoLoop);
 
-        this.animaTransitoBien = this.add.sprite(3475,3300,'transito_bien','07_TRANSITO_BIEN_corte_00002.png').play('transito_bien_frame');
+        this.animaTransitoBien = this.add.sprite(3040,3300,'transito_bien','07_TRANSITO_BIEN_corte_00002.png').play('transito_bien_frame');
         this.map.add(this.animaTransitoBien);
 
-        this.animaTransitoMal = this.add.sprite(3475,3300,'transito_mal','07_TRANSITO_MAL_00001.png').play('transito_mal_frame');
+        this.animaTransitoMal = this.add.sprite(3040,3300,'transito_mal','07_TRANSITO_MAL_00001.png').play('transito_mal_frame');
         this.map.add(this.animaTransitoMal);
 
         this.animaPolfaBueno = this.add.sprite(6200,2000,'polfa_bueno','08_POLFA_Bueno_00001').play('polfa_bueno');
@@ -623,6 +623,8 @@ class Game extends Phaser.Scene{
 
         this.fondoend = this.add.image(1090,0,'ganaste').setOrigin(0,0);
         this.continuarend = this.add.image(1355,854,'inscribir').setOrigin(0,0);
+        this.continuarend.setInteractive();
+        this.continuarend.on('pointerup', () => { window.location.href = "https://sinco.policia.gov.co/sitiopreinscripcion/ZonaPublica/InicioPre.aspx"; })
         this.textoend = this.add.text(1461, 344, '10/10', { fontFamily: 'Arial', fontSize: 40, color: '#ffffff' }).setOrigin(0,0);
         this.continuarend.setInteractive({useHandCursor: true});
         this.continuarend.on('pointerup', () => {this.SoundVolver.play()});
@@ -645,7 +647,7 @@ class Game extends Phaser.Scene{
         //this.map.x = this.map.width - (1920/2);
         //this.map.y = this.map.Height - (1080/2);
         console.log(this.map);
-        //this.map.setInteractive({cursor: 'url(img/hud/mouse.cur), pointer'})
+        //this.map.setInteractive({cursor: 'url(img/hud/.cur), pointer'})
         this.map.setInteractive(new Phaser.Geom.Rectangle(0, 0, mapwidth, mapHeight), Phaser.Geom.Rectangle.Contains);
         this.input.setDraggable(this.map);
 
